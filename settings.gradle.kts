@@ -6,4 +6,6 @@ pluginManagement {
 }
 
 rootProject.name = "test-r2dbc"
+include("java-h2")
+include("java-mysql")
 include("java-postgresql")
